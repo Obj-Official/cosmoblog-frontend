@@ -18,7 +18,7 @@ const Body=()=>{
                 <h1>COSMOBLOG</h1>
                 <p id='intro'>Your Personal Diary and Journal which you can share with the world</p>
                 <br/><br/>
-                <Link to='/post-edit'><button id='createpostbtn'>Create Blog Now</button></Link>
+                <Link to='/post-edit'><button id='createpostbtn' className='createpostbtn'>Create Blog Now</button></Link>
             </div>
             </div>
             </center>
@@ -60,7 +60,7 @@ const Body=()=>{
                 <br/><br/>
                 <p id='creators'>Content creators are showcasing their creativity and writing engaging blogposts, 
                     you can join the fold now and exhibit your ingeniousness </p><br/>
-                <Link to='/post-edit'><button id='createpostbtn'>Create Blog Now</button></Link>
+                <Link to='/post-edit'><button className='createpostbtn'>Create Blog Now</button></Link>
             </div>
             <div id='allthemes'>{/*Fifth Component of homepage*/}
                <div align='left' id='featuring'><h3>Featuring...</h3></div><br/>
