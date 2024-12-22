@@ -280,8 +280,11 @@ h1{
   width: 90%;
 }
 #themescroll{
-  overflow-x: auto;
+  overflow-x: scroll;
   width: 100%;
+}
+.themespanel{
+  width: 120%;
 }
 #lifestyle{
   background-image: url('Data/lifestyle.jpg');

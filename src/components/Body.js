@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import React, { useContext, useEffect } from 'react';
 import AuthContext from '../utils/Context';
 import {IoLayersOutline} from 'react-icons/io5';
-import Slider from 'infinite-react-carousel';
+// import Slider from 'infinite-react-carousel';
 //import $ from 'jquery';
 
 const Body=()=>{
@@ -65,7 +65,8 @@ const Body=()=>{
             <div id='allthemes'>{/*Fifth Component of homepage*/}
                <div align='left' id='featuring'><h3>Featuring...</h3></div><br/>
                <div id='themescroll'>
-                <Slider dots slidesToShow={4}>
+                <div className='themespanel'>
+                {/* <Slider dots slidesToShow={4}> */}
                 <Link to='/feature'>
                 <div className='themedivs' id='lifestyle' onClick={()=>{setfeature('Lifestyle')}}>
                    <p className='themes'> Lifestyle</p>
@@ -96,7 +97,8 @@ const Body=()=>{
                    <p className='themes'> Sports</p>
                 </div>
                 </Link>
-                </Slider>
+                {/* </Slider> */}
+                </div>
                 </div>
             </div>
             <div id='resources' align='center'>{/*Sixth Component of homepage*/}
