@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
 import Allblogs from "./Allblogs";
-import {IoPerson, IoBriefcaseSharp, IoAtCircleOutline} from 'react-icons/io5'
+import { IoBriefcaseSharp, IoAtCircleOutline} from 'react-icons/io5'
 import AuthContext from "../utils/Context";
 
 const Profile=()=>{
